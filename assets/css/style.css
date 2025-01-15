@@ -419,15 +419,28 @@ section {
   flex-direction: row;
   margin: auto;
 }
-.card {
+.container .card {
   background:white;
   border: 1px solid black;
   color: black;
   margin: auto;
 }
 
-.btn {
+.container .btn {
   border: 2px solid black;
+  padding: 10px 15px;
+  font-size: 16px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Only transition the color */
+}
+
+/* Hover effect */
+.container .btn:hover {
+  color: #007bff; /* Blue text */
 }
 
 
@@ -442,7 +455,6 @@ section {
 .services .icon-box {
   margin-bottom: 20px;
 }
-
 .services .icon {
   float: left;
   display: flex;
@@ -478,11 +490,7 @@ section {
 }
 
 .services .title a {
-  color: #343a40;
-}
-
-.services .title a:hover {
-  color: #149ddd;
+  color:black;
 }
 
 .services .description {
