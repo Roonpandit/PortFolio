@@ -430,6 +430,7 @@ section {
   border: 1px solid black;
   color: black;
   margin: auto;
+  margin-top: 20px;
 }
 
 .container .btn {
